@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="semantic.html">Semantic</a></li>
+          <li><a href="auido-video.html">Audio</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+
+      <h1>Welcome to my Home</h1>
+    </header>
+    <!-- create a form -->
+    <h1>Form Fill UP</h1>
+    <form action="">
+      <p>Name:<input type="text" name="name" id="" /></p>
+      <p>Email<input type="email" name="email" id="" /></p>
+      <fieldset>
+        <legend>Select your University</legend>
+        <p>
+          <label for="BM">
+            <input type="radio" name="COLLAGE" id="BM" />BM Collage
+          </label>
+        </p>
+        <p>
+          <label for="Islamia">
+            <input type="radio" name="COLLAGE" id="Islamia" />Islamia Collage
+          </label>
+        </p>
+        <p>
+          <label for="govt">
+            <input type="radio" name="COLLAGE" id="govt" />Govt Barisal Collage
+          </label>
+        </p>
+        <p>
+          <label for="Hatym">
+            <input type="radio" name="COLLAGE" id="Hatym" />Hatym Ali Collage
+          </label>
+        </p>
+        <p>
+          <label for="Public">
+            <input type="radio" name="COLLAGE" id="Public" />Public University
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Select your Subject</legend>
+        <label for="science">
+          <p><input type="checkbox" id="science" name="Subject" />Science</p>
+        </label>
+        <label for="commerce">
+          <p><input type="checkbox" id="commerce" name="Subject" />Commerce</p>
+        </label>
+        <label for="Arts">
+          <p><input type="checkbox" id="Arts" name="Subject" />Arts</p>
+        </label>
+      </fieldset>
+      <p>Your Biodata..........</p>
+      <textarea name="Bio" id="" cols="30" rows="10" placeholder="Write your Bio....."></textarea>
+      <br> <br>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
